@@ -19,6 +19,9 @@ public interface PostMapper {
     PostResponse findById(Long id);
 
     /**
+     *
+     *
+     *
      * 게시글 삭제
      * @param id - PK
      */
