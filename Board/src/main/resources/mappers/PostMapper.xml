@@ -23,7 +23,7 @@
         INSERT INTO tb_post (
             <include refid="postColumns" />
         )VALUES (
-        #{id}
+          #{id}
         , #{title}
         , #{content}
         , #{writer}
