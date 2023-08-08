@@ -2,6 +2,8 @@ package com.study.domain.post;
 
 import org.apache.ibatis.annotations.Mapper;
 
+import java.util.List;
+
 @Mapper
 public interface PostMapper {
     /**
@@ -26,6 +28,12 @@ public interface PostMapper {
      * @param id - PK
      */
     void deleteById(Long id);
+
+    /**
+     * 게시글 리스트 조회
+     * @return 게시글 리스트
+     */
+    List<PostResponse> findAll();
 
     /**
      * 게시글 수 카운팅

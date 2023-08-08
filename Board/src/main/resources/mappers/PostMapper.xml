@@ -12,7 +12,7 @@
         , view_cnt
         , notice_yn
         , delete_yn
-        , create_date
+        , created_date
         , modified_date
     </sql>
 
